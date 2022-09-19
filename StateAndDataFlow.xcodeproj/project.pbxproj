@@ -15,6 +15,9 @@
 		38F2099128D86C9000F83951 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099028D86C9000F83951 /* UserManager.swift */; };
 		38F2099328D8755D00F83951 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099228D8755C00F83951 /* StarterView.swift */; };
 		38F2099528D8775900F83951 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099428D8775900F83951 /* TimeCounter.swift */; };
+		38F2099728D8852100F83951 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099628D8852100F83951 /* DataManager.swift */; };
+		38F2099928D88E5600F83951 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099828D88E5600F83951 /* ButtonView.swift */; };
+		38F2099B28D88FAC00F83951 /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099A28D88FAC00F83951 /* ButtonAppearanceModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		38F2099028D86C9000F83951 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		38F2099228D8755C00F83951 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		38F2099428D8775900F83951 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		38F2099628D8852100F83951 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		38F2099828D88E5600F83951 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		38F2099A28D88FAC00F83951 /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +69,11 @@
 				38F2099228D8755C00F83951 /* StarterView.swift */,
 				38F2098228D8692E00F83951 /* ContentView.swift */,
 				38F2098E28D869BA00F83951 /* RegisterView.swift */,
+				38F2099628D8852100F83951 /* DataManager.swift */,
 				38F2099028D86C9000F83951 /* UserManager.swift */,
 				38F2099428D8775900F83951 /* TimeCounter.swift */,
+				38F2099828D88E5600F83951 /* ButtonView.swift */,
+				38F2099A28D88FAC00F83951 /* ButtonAppearanceModifier.swift */,
 				38F2098428D8693000F83951 /* Assets.xcassets */,
 				38F2098628D8693000F83951 /* Preview Content */,
 			);
@@ -149,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F2099B28D88FAC00F83951 /* ButtonAppearanceModifier.swift in Sources */,
 				38F2098F28D869BA00F83951 /* RegisterView.swift in Sources */,
 				38F2099328D8755D00F83951 /* StarterView.swift in Sources */,
+				38F2099928D88E5600F83951 /* ButtonView.swift in Sources */,
 				38F2098328D8692E00F83951 /* ContentView.swift in Sources */,
+				38F2099728D8852100F83951 /* DataManager.swift in Sources */,
 				38F2099528D8775900F83951 /* TimeCounter.swift in Sources */,
 				38F2099128D86C9000F83951 /* UserManager.swift in Sources */,
 				38F2098128D8692E00F83951 /* StateAndDataFlowApp.swift in Sources */,
