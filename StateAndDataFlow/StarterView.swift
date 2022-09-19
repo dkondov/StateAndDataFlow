@@ -15,7 +15,7 @@ struct StarterView: View {
         
         Group {
             if userManager.user.isRegistered {
-                ContentView()
+                TimerView()
             } else {
                 RegisterView()
             }

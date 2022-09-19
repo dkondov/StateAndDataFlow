@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TimerView: View {
    
     @StateObject private var timer = TimeCounter()
     @EnvironmentObject private var userManager: UserManager
@@ -43,7 +43,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TimerView()
             .environmentObject(UserManager())
     }
 }
