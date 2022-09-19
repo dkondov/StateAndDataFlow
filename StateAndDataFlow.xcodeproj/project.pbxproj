@@ -11,6 +11,10 @@
 		38F2098328D8692E00F83951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2098228D8692E00F83951 /* ContentView.swift */; };
 		38F2098528D8693000F83951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F2098428D8693000F83951 /* Assets.xcassets */; };
 		38F2098828D8693000F83951 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F2098728D8693000F83951 /* Preview Assets.xcassets */; };
+		38F2098F28D869BA00F83951 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2098E28D869BA00F83951 /* RegisterView.swift */; };
+		38F2099128D86C9000F83951 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099028D86C9000F83951 /* UserManager.swift */; };
+		38F2099328D8755D00F83951 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099228D8755C00F83951 /* StarterView.swift */; };
+		38F2099528D8775900F83951 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2099428D8775900F83951 /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		38F2098228D8692E00F83951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38F2098428D8693000F83951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F2098728D8693000F83951 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38F2098E28D869BA00F83951 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		38F2099028D86C9000F83951 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		38F2099228D8755C00F83951 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		38F2099428D8775900F83951 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				38F2098028D8692E00F83951 /* StateAndDataFlowApp.swift */,
+				38F2099228D8755C00F83951 /* StarterView.swift */,
 				38F2098228D8692E00F83951 /* ContentView.swift */,
+				38F2098E28D869BA00F83951 /* RegisterView.swift */,
+				38F2099028D86C9000F83951 /* UserManager.swift */,
+				38F2099428D8775900F83951 /* TimeCounter.swift */,
 				38F2098428D8693000F83951 /* Assets.xcassets */,
 				38F2098628D8693000F83951 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F2098F28D869BA00F83951 /* RegisterView.swift in Sources */,
+				38F2099328D8755D00F83951 /* StarterView.swift in Sources */,
 				38F2098328D8692E00F83951 /* ContentView.swift in Sources */,
+				38F2099528D8775900F83951 /* TimeCounter.swift in Sources */,
+				38F2099128D86C9000F83951 /* UserManager.swift in Sources */,
 				38F2098128D8692E00F83951 /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
